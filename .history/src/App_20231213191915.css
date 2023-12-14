@@ -1,0 +1,9 @@
+.home{
+    width: 100%;
+ 
+    background-image: url("../public/image/pexels-max-rahubovskiy-6238608.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-position: center;
+}
+
