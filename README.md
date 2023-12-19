@@ -1,9 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # perfil-plac
+
+-Landing Page para cliente que vvende insumos para la construcción en seco.
+
+-Se eligió React como tecnología porque en un futuro puede que escale a  algo más grande, ya sea por rendimiento como facilidad para poder escalar la aplicación sin muchos problemas.
