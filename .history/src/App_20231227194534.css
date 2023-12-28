@@ -234,11 +234,11 @@ flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  padding: 30px;
   
 }
 .card-servicios {
-  margin: 0 auto;
+  margin-top: 2rem;
   background-color: white;
   padding: 1.5rem 2rem;
   display: flex;
@@ -249,14 +249,16 @@ flex-direction: column;
   flex-direction: column;
   text-align: center;
 }
-.container-servicios strong {
-  margin-bottom: 50px;
-
+.container-servicios p {
+  padding: 10px;
+  font-weight: 400;
 }
-
+.card-servicios {
+  margin: 2rem auto;
+}
 .card-servicios p {
   font-weight: 700;
-  color: #000;
+  color: #515151;
   max-width: 500px;
   font-size: 1.1rem;
   margin: 2rem 0rem;

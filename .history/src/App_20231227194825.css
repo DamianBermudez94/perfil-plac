@@ -238,7 +238,7 @@ flex-direction: column;
   
 }
 .card-servicios {
-  margin: 0 auto;
+  margin-top: 2rem;
   background-color: white;
   padding: 1.5rem 2rem;
   display: flex;
@@ -250,10 +250,12 @@ flex-direction: column;
   text-align: center;
 }
 .container-servicios strong {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 
 }
-
+.card-servicios {
+  margin: 2rem auto;
+}
 .card-servicios p {
   font-weight: 700;
   color: #000;

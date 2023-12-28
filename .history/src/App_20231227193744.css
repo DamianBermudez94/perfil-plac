@@ -217,7 +217,7 @@ nav {
 
 .container-servicios{
 width: 100%;
-
+height: 500px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -234,11 +234,11 @@ flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  padding: 30px;
   
 }
 .card-servicios {
-  margin: 0 auto;
+  margin-top: 2rem;
   background-color: white;
   padding: 1.5rem 2rem;
   display: flex;
@@ -249,19 +249,21 @@ flex-direction: column;
   flex-direction: column;
   text-align: center;
 }
-.container-servicios strong {
-  margin-bottom: 50px;
-
+.card-servicios {
+  margin: 2rem auto;
 }
-
 .card-servicios p {
   font-weight: 700;
-  color: #000;
+  color: #515151;
   max-width: 500px;
   font-size: 1.1rem;
   margin: 2rem 0rem;
 }
-
+.testimonials-stars-container svg {
+  margin: 0rem 0.25rem;
+  font-size: 1.5rem;
+  color: #fe9e0d;
+}
 .card-servicios h2 {
   margin-top: 1.5rem;
 }
@@ -269,7 +271,7 @@ flex-direction: column;
 .productos {
   width: 100%;
   height: 100vh;
-  background-color: #6C7A72;
+  background-color: #e2e2e2;
 }
 .work-section-top p {
   text-align: center;

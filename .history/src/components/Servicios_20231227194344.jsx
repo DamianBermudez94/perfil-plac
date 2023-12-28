@@ -29,9 +29,8 @@ const Servicios = () => {
           <h2>Entrega inmediata</h2>
           <p>Para cumplir con los tiempo de obra.</p>
         </div>
-        
+        <p>No dudes en comunicarte por algunos de nuestros medios*</p>
       </div>
-      <strong>No dudes en comunicarte por algunos de nuestros medios*</strong>
     </section>
   );
 };

@@ -31,7 +31,7 @@ const Servicios = () => {
         </div>
         
       </div>
-      <strong>No dudes en comunicarte por algunos de nuestros medios*</strong>
+      <p>No dudes en comunicarte por algunos de nuestros medios*</p>
     </section>
   );
 };

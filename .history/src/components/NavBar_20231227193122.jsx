@@ -52,8 +52,8 @@ const Navbar = () => {
           </Link>
           <Link to="/nosotros">nosotros</Link>
           <Link to="/servicios">servicios</Link>
-          <Link to="/productos">productos</Link>
           <Link to="/contacto">contacto</Link>
+          <Link to="/productos">productos</Link>
         </ul>
       </div>
       <div className="navbar-menu-container">

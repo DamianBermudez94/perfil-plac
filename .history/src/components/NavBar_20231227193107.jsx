@@ -48,12 +48,12 @@ const Navbar = () => {
       <div className="navbar-links-container">
         <ul>
           <Link className="" to="/inicio">
-            inicio
+            Inicio
           </Link>
-          <Link to="/nosotros">nosotros</Link>
-          <Link to="/servicios">servicios</Link>
+          <Link to="/nosotros">Nosotros</Link>
+          <Link to="/servicios">Servicios</Link>
+          <Link to="/contacto">Contacto</Link>
           <Link to="/productos">productos</Link>
-          <Link to="/contacto">contacto</Link>
         </ul>
       </div>
       <div className="navbar-menu-container">
