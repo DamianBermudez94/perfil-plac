@@ -122,6 +122,9 @@ nav {
 }
 /***Seccion Nosotros***/
 
+.about-section-container {
+
+}
 .container-text__nosotros {
  padding: 30px;
   display: flex;

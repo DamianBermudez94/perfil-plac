@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -20,29 +20,24 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
-      text: "Inicio",
+      text: "Home",
       icon: <HomeIcon />,
-      path:"#inicio"
     },
     {
-      text: "productos",
+      text: "About",
       icon: <InfoIcon />,
-      path:"#productos"
     },
     {
-      text: "nosotros",
+      text: "Testimonials",
       icon: <CommentRoundedIcon />,
-      path:"#nosotros"
     },
     {
-      text: "Contacto",
+      text: "Contact",
       icon: <PhoneRoundedIcon />,
-      path:"#contacto"
     },
     {
-      text: "servicios",
+      text: "Cart",
       icon: <ShoppingCartRoundedIcon />,
-      path:"#servicios"
     },
   ];
   return (
@@ -51,7 +46,7 @@ const Navbar = () => {
         <img src={logo} alt="" className="logo-img" />
       </div>
       <div className="navbar-links-container">
-      <ul>
+        <ul>
           <Link className="" to="/inicio">
             inicio
           </Link>
@@ -77,7 +72,6 @@ const Navbar = () => {
                 <ListItemButton>
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
-                  <NavLink rel="stylesheet" to={item.path} />
                 </ListItemButton>
               </ListItem>
             ))}

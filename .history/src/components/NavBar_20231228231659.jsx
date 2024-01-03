@@ -51,15 +51,6 @@ const Navbar = () => {
         <img src={logo} alt="" className="logo-img" />
       </div>
       <div className="navbar-links-container">
-      <ul>
-          <Link className="" to="/inicio">
-            inicio
-          </Link>
-          <Link to="/nosotros">nosotros</Link>
-          <Link to="/servicios">servicios</Link>
-          <Link to="/productos">productos</Link>
-          <Link to="/contacto">contacto</Link>
-        </ul>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

@@ -122,29 +122,28 @@ nav {
 }
 /***Seccion Nosotros***/
 
-.container-text__nosotros {
+.about-section-container {
+
+}
+.container-text {
  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
 }
-.container-text__nosotros h1 {
+.container-text h1 {
   font-size: 45px;
   margin: 25px;
-  text-align: center;
 }
-.container-text__nosotros p {
+.container-text p {
   font-size: 35px;
   text-align: center;
   padding: 20px;
-  letter-spacing: normal;
-  font-style:italic;
-
   
 }
-.container-text__nosotros .button-informacion{
-  width: auto;
+.container-text .button-informacion{
+  width: 16%;
 }
 
 /***--Seccion Contacto---***/
@@ -177,7 +176,44 @@ nav {
   padding: 0.5rem 1rem;
 }
 
+/*Estilos del footer*/
+.footer-wrapper {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  background-color: #e2e2e2;
+  padding: 20px;
+}
+.logo-footer {
+  width: 100%;
+  height: 150px;
+}
+.footer-logo-container {
+  max-width: 110px;
+}
 
+.footer-icons svg {
+  font-size: 30px;
+  margin-right: 1.25rem;
+  color: #585858;
+}
+.footer-section-one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-section-columns {
+  display: flex;
+  flex-direction: column;
+  min-width: 190px;
+}
+.footer-section-columns span {
+  margin: 0.25rem 0rem;
+  font-weight: 600;
+  color: #4c4c4c;
+  cursor: pointer;
+}
 /**--Seccion Servicios--**/
 
 .container-servicios{
@@ -283,46 +319,6 @@ flex-direction: column;
 }
 .icons-servicios {
   font-size: 50px;
-}
-
-
-/**--Estilos del footer--**/
-.footer-wrapper {
-  width: 100%;
-  height: 300px;
-  display: grid;
-  background-color: #e2e2e2;
-  padding: 20px;
-}
-.logo-footer {
-  width: 100%;
-  height: 150px;
-}
-.footer-logo-container {
-  max-width: 110px;
-}
-
-.footer-icons svg {
-  font-size: 30px;
-  margin-right: 1.25rem;
-  color: #585858;
-}
-.footer-section-one {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.footer-section-columns {
-  display: flex;
-  flex-direction: column;
-  min-width: 190px;
-}
-.footer-section-columns span {
-  margin: 0.25rem 0rem;
-  font-weight: 600;
-  color: #4c4c4c;
-  cursor: pointer;
 }
 
 /* -- Respopsive -- */

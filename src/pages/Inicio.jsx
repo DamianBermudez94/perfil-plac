@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Inicio = () => {
   return (
-    <section className="home-container">
+    <section className="home-container" id="inicio">
       <div className="home-banner-container">
         <div className="home-text-section">
           <h1 className="primary-heading">

@@ -122,6 +122,9 @@ nav {
 }
 /***Seccion Nosotros***/
 
+.about-section-container {
+
+}
 .container-text__nosotros {
  padding: 30px;
   display: flex;
@@ -129,21 +132,17 @@ nav {
   justify-content: space-between;
   flex-direction: column;
 }
-.container-text__nosotros h1 {
+.container-tex__nosotros h1 {
   font-size: 45px;
   margin: 25px;
-  text-align: center;
 }
-.container-text__nosotros p {
+.container-text p {
   font-size: 35px;
   text-align: center;
   padding: 20px;
-  letter-spacing: normal;
-  font-style:italic;
-
   
 }
-.container-text__nosotros .button-informacion{
+.container-text .button-informacion{
   width: auto;
 }
 
