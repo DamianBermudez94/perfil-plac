@@ -22,27 +22,27 @@ const Navbar = () => {
     {
       text: "Inicio",
       icon: <HomeIcon />,
-      path: "#inicio",
+      path:"#inicio"
     },
     {
       text: "productos",
       icon: <InfoIcon />,
-      path: "#productos",
+      path:"#productos"
     },
     {
       text: "nosotros",
       icon: <CommentRoundedIcon />,
-      path: "#nosotros",
+      path:"#nosotros"
     },
     {
       text: "Contacto",
       icon: <PhoneRoundedIcon />,
-      path: "#contacto",
+      path:"#contacto"
     },
     {
       text: "servicios",
       icon: <ShoppingCartRoundedIcon />,
-      path: "#servicios",
+      path:"#servicios"
     },
   ];
   return (
@@ -51,7 +51,7 @@ const Navbar = () => {
         <img src={logo} alt="" className="logo-img" />
       </div>
       <div className="navbar-links-container">
-        <ul>
+      <ul>
           <Link className="" to="/inicio">
             inicio
           </Link>
@@ -75,6 +75,7 @@ const Navbar = () => {
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
                 <ListItemButton>
+                 
                   <ListItemText primary={item.text} />
                   <Link rel="stylesheet" to={item.path} />
                 </ListItemButton>

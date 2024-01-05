@@ -8,7 +8,7 @@ import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-
+import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
@@ -22,27 +22,27 @@ const Navbar = () => {
     {
       text: "Inicio",
       icon: <HomeIcon />,
-      path: "#inicio",
+      path:"#inicio"
     },
     {
       text: "productos",
       icon: <InfoIcon />,
-      path: "#productos",
+      path:"#productos"
     },
     {
       text: "nosotros",
       icon: <CommentRoundedIcon />,
-      path: "#nosotros",
+      path:"#nosotros"
     },
     {
       text: "Contacto",
       icon: <PhoneRoundedIcon />,
-      path: "#contacto",
+      path:"#contacto"
     },
     {
       text: "servicios",
       icon: <ShoppingCartRoundedIcon />,
-      path: "#servicios",
+      path:"#servicios"
     },
   ];
   return (
@@ -51,14 +51,14 @@ const Navbar = () => {
         <img src={logo} alt="" className="logo-img" />
       </div>
       <div className="navbar-links-container">
-        <ul>
+      <ul>
           <Link className="" to="/inicio">
             inicio
           </Link>
-          <Link to="/nosotros">nosotros</Link>
-          <Link to="/servicios">servicios</Link>
-          <Link to="/productos">productos</Link>
-          <Link to="/contacto">contacto</Link>
+          <Link to="#nosotros">nosotros</Link>
+          <Link to="#servicios">servicios</Link>
+          <Link to="#productos">productos</Link>
+          <Link to="#contacto">contacto</Link>
         </ul>
       </div>
       <div className="navbar-menu-container">
@@ -75,6 +75,7 @@ const Navbar = () => {
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
                 <ListItemButton>
+                  <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
                   <Link rel="stylesheet" to={item.path} />
                 </ListItemButton>
