@@ -5,12 +5,12 @@ import Nosotros from "../pages/Nosotros";
 import Productos from "../pages/Productos";
 import Servicios from "../pages/Servicios";
 
-import NavHeader from "../components/NavHeader";
+import NavHeader from "../components/Header";
 import Footer from "../components/Footer";
 export const Rutas = () => {
   return (
     <BrowserRouter>
-      <NavHeader />
+      <Header />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/inicio" element={<Inicio />} />
@@ -19,7 +19,7 @@ export const Rutas = () => {
         <Route path="/productos" element={<Productos />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </BrowserRouter>
   );
 };

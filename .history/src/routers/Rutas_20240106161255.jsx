@@ -19,7 +19,7 @@ export const Rutas = () => {
         <Route path="/productos" element={<Productos />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </BrowserRouter>
   );
 };

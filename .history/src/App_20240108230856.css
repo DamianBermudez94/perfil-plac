@@ -637,22 +637,16 @@ form p {
 }
 .footer-legal__text p {
   margin-bottom: 20px;
-  
+  padding: 20px;
  
 }
 .footer-legal__text span {
   margin-top: 20px;
   font-weight: 600;
-  
+  color: #4c4c4c;
  
 }
 
-.footer-legal__text span a{
-  color: #4c4c4c;
-  text-decoration: none;
-  cursor: pointer;
- 
-}
 @media (max-width: 800px) {
   .footer {
     height: 350px;

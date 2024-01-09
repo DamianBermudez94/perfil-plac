@@ -5,7 +5,7 @@ import Nosotros from "../pages/Nosotros";
 import Productos from "../pages/Productos";
 import Servicios from "../pages/Servicios";
 
-import NavHeader from "../components/NavHeader";
+import NavHeader from "../components/Header";
 import Footer from "../components/Footer";
 export const Rutas = () => {
   return (

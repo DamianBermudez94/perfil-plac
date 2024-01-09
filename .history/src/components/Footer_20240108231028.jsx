@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="footer-legal__text">
             <p>@2024 Perfil-Plac innovación</p>
-            <span><a href="https://damianbermudezdev.es/" target="__blank">Hecho por DB|WEB &#169;</a></span>
+            <a href="https://damianbermudezdev.es/" target="__blank">Hecho por DB|WEB &#169;</a>
           </div>
       </div>
     </footer>

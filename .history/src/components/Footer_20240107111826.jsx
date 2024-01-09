@@ -17,9 +17,9 @@ const Footer = () => {
           <div className="footer-logo-container">
             <img src={Logo} alt="" className="logo-footer" />
           </div>
-          <div className="footer-legal__text">
+          <div className="footer-">
             <p>@2024 Perfil-Plac innovación</p>
-            <span><a href="https://damianbermudezdev.es/" target="__blank">Hecho por DB|WEB &#169;</a></span>
+            <span>Hecho por DB|WEB &#169;</span>
           </div>
       </div>
     </footer>
